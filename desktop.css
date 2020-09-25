@@ -1,0 +1,140 @@
+/* For Desktop */
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+
+.nav-logo{
+    text-align: left;
+
+}
+
+.nav-heading h1{
+    text-align: right;
+    font-size: 2.2rem;
+    margin: 3px;
+}
+
+.nav-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.nav-menu a{
+     
+    padding: 8px;
+   
+    
+    background-color: transparent;
+
+}
+.nav-menu a:hover{
+
+    background-color: transparent;
+}
+/* Nav ends */
+
+
+/* Profile starts */
+
+.profile .top-weather-icon{
+
+    position: absolute;
+    right: 50px;
+    top: 20px;
+    width: 120px;
+    transition: transform 2s;
+
+}
+.profile .top-weather-icon:hover{
+
+    width: 150px;
+}
+
+
+.profile .bottom-weather-icon{
+
+    position: absolute;
+    left: 50px;
+    width: 120px;
+    bottom: 20px;
+    transition: transform 2s;
+
+}
+.profile .bottom-weather-icon:hover{
+
+    width: 150px;
+}
+
+/* Pro ends */
+/* About me starts */
+
+
+.aboutme-image{
+
+    margin-top: 10px;
+
+}
+.aboutme-image img{
+    height: 260px;
+    width: 250px;
+
+}
+.aboutme-desc{
+    text-align: left;
+}
+
+/* About me ends */
+
+ /* Profile exp ends  */
+ /* Achivement cont starts */
+ .achievement{
+     padding-right: 50px;
+
+
+ }
+
+ .contact button{
+     width: 150px;
+
+ }
+
+
+ .contact-links{
+     position: relative;
+ }
+
+ .media-buttons{
+     position: absolute;
+     margin-top: 150px;;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%, -50%);
+
+ }
+ /* Ac. cont. ends */
+
+ /* Footer starts here */
+
+ .footer-menu{
+     margin-top: 10px;
+
+
+ }
+ .footer-menu a{
+     display: inline;
+     margin: 10px;
+     
+
+ }
+
